@@ -1,0 +1,18 @@
+Please act as a professional verilog designer.
+
+Implement an 8-bit Radix-4 booth multiplier that performs the multiplication of two 8-bit inputs (a and b) using the Booth algorithm. The module uses an always block sensitive to the positive edge of the clock signal (posedge clk) and the positive edge of the reset signal (posedge reset). It provides the product output (p) and a ready signal (rdy). The ready signal (rdy) is set to 1 to indicate the completion of the multiplication process.
+
+Module name:  
+   multi_booth_8bit  
+
+Input ports:
+   clk: Clock signal used for synchronous operation.
+   reset: Reset signal used to initialize the multiplier module.
+   a: 8-bit input representing the multiplicand.
+   b: 8-bit input representing the multiplier.
+
+Output ports:
+   p: 16-bit output representing the product of the multiplication.
+   rdy: Ready signal indicating the completion of the multiplication operation.
+
+
